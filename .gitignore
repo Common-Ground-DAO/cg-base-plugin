@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules
+dist
+build
+
+# Cache
+.cache
+.npm
+.DS_Store
+contracts/artifacts
+contracts/typechain
+contracts/cache
+app/contracts
+
+# React Router
+/.react-router/
+/build/
+
+# Prisma
+generated/prisma
+
+# env
+*.local
