@@ -14,7 +14,7 @@ datasource db {
   url      = "file:./db/dev.db"
 }
 
-// model WelcomeMessage {
-//   id               Int            @id @default(autoincrement())
-//   message          String
-// }
+model ExampleModel {
+  id               Int            @id @default(autoincrement())
+  text             String
+}
